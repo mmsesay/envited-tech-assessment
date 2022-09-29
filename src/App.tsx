@@ -1,10 +1,13 @@
 import React from "react";
 import "./styles/App.css";
+import { BaseLayout, Landing } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!fsadjfdsa</h1>
+      <BaseLayout>
+        <Landing />
+      </BaseLayout>
     </div>
   );
 }
