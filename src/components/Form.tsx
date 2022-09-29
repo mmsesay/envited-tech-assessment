@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useForm, Resolver } from 'react-hook-form';
+import { useForm, Resolver } from "react-hook-form";
 import Button from "./Button";
 
 type FormValues = {
@@ -10,7 +10,6 @@ type FormValues = {
 };
 
 const Form = () => {
-
   return (
     <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 my-5">
       <div className="mb-4">
@@ -35,7 +34,7 @@ const Form = () => {
         />
       </div>
 
-      <Button content="🎉 Create my event" />
+      <Button content="Submit" />
     </form>
   );
 };
